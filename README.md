@@ -26,19 +26,30 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/yourusername/photography-portfolio.git
 
+```
+
 2. Navigate to the project directory:
-```cd photography-portfolio
+
+```
+cd photography-portfolio
+```
 
 3. Install dependencies
 
+```
 npm install
 # or
 yarn install
+```
 
 4. Start the development server:
+
+```
 npm run dev
 # or
 yarn dev
+```
+
 
 The project will be running on http://localhost:3000.
 
