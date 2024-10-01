@@ -1,0 +1,31 @@
+
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 1rem; 
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scrollbar-color: rgb(183, 158, 201) white;
+  scrollbar-width: thin;
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 80rem;
+    object-fit:contain;
+  }
+}
+
+
+.titleGallery {
+  color: white;
+  font-size: 36px;
+  // margin: 0px 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}

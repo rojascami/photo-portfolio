@@ -1,0 +1,35 @@
+.front {
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  margin: 4rem 1rem 0 4rem;
+  .menu {
+      width: 32rem;
+      height: 65rem;
+      background-color: rgb(183, 158, 201);
+      border-radius: 25px;
+      max-width: calc(100vw - 2rem);
+      overflow: hidden;
+      position: relative;
+      
+  }
+ 
+  @media (min-width: 600px) {
+    .menu {
+        visibility:visible;
+        // right: 0px;
+    }
+    .front{
+      // right: 1049px;
+    }
+  }
+  
+}
+
