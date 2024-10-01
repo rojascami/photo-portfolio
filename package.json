@@ -14,7 +14,8 @@
     "react": "^18",
     "react-curved-text": "^3.0.1",
     "react-dom": "^18",
-    "react-photoswipe-gallery": "^3.0.2"
+    "react-photoswipe-gallery": "^3.0.2",
+    "sass": "^1.79.4"
   },
   "devDependencies": {
     "eslint": "^8",
